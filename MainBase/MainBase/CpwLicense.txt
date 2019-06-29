@@ -1,0 +1,104 @@
+
+/*********************************************************************************
+/*                                                                               *
+/*  Cpw or "Cross-platform Windowing for OpenGL" is an adaptation of Mark        *
+/*  Kilgard's GLUT library version 3.7. This library is true free software,      *
+/*  use is granted with only minor restrictions. Please send any bug             *
+/*  fixes, additional ports, and feedback to the cpw mailinglist address below.  *
+/*  The GLUT 3.7 library was used as a framework in developing this code.        *
+/*  Because of this I would like to graciously thank Mark Kilgard for his        *
+/*  hard work on the GLUT library.                                               *
+/*                                                                               *
+/*  Other developers have had an important role in the development of this       *
+/*  library. Please note the developer credits on the Cpw web site. If you       *
+/*  use this library, please mention these developers on your web site or        *
+/*  in your documentation.                                                       *
+/*                                                                               *
+/*  Cpw web site: (for now) http://www.mathies.com/cpw/                          *
+/*  Cpw mailing list: (for now) cpw@mathies.com                                  *
+/*  license: The "Lua License" (see below)                                       *
+/*                                                                               *
+/*  This Cpw Version: Beta 1.0                                                   *
+/*                                                                               *
+/*********************************************************************************/
+
+/*********************************************************************************
+/*                                                                               *
+/* Cpw is Copyright 2001-2002 by                                                 *
+/*   Jim Mathies,                                                                *
+/*   All rights reserved.                                                        *
+/*                                                                               *
+/* Permission is hereby granted, without written agreement and without license   *
+/* or royalty fees, to use, copy, modify, and distribute this software and it's  *
+/* documentation for any purpose, including commercial applications, subject to  *
+/* the following conditions:                                                     *
+/*                                                                               *
+/*  - The above copyright notice and this permission notice shall appear in all  *
+/*    copies or substantial portions of the software's source code.              *
+/*                                                                               *
+/*  - The origin of this software must not be misrepresented; you must not       *
+/*    claim that you wrote the original software. If you use this software in a  *
+/*    product, an acknowledgment in the product documentation would be greatly   *
+/*    appreciated (but it is not required).                                      *
+/*                                                                               *
+/*  - Altered source versions must be plainly marked as such, and must not be    *
+/*    misrepresented as being the original software.                             *
+/*                                                                               *
+/* The authors specifically disclaim any warranties, including, but not limited  *
+/* to, the implied warranties of merchantability and fitness for a particular    *
+/* purpose.  The software provided hereunder is on an "as is" basis, and the     *
+/* authors have no obligation to provide maintenance, support, updates,          *
+/* enhancements, or modifications.  In no event shall the authors                *
+/* be held liable to any party for direct, indirect, special, incidental, or     *
+/* consequential damages arising out of the use of this software and its         *
+/* documentation.                                                                *
+/*                                                                               *
+/*********************************************************************************/
+
+/***************************************************************************/
+/*                                                                         */
+/*  Some of the Cpw code associated with primitive drawing is copyright    */
+/*  Silicon Graphics. See cpw_primitives.c for more details.               */
+/*                                                                         */
+/*  (c) Copyright 1993, Silicon Graphics, Inc.                             */
+/*                                                                         */
+/*  ALL RIGHTS RESERVED                                                    */
+/*                                                                         */
+/*  Permission to use, copy, modify, and distribute this software          */
+/*  for any purpose and without fee is hereby granted, provided            */
+/*  that the above copyright notice appear in all copies and that          */
+/*  both the copyright notice and this permission notice appear in         */
+/*  supporting documentation, and that the name of Silicon                 */
+/*  Graphics, Inc. not be used in advertising or publicity                 */
+/*  pertaining to distribution of the software without specific,           */
+/*  written prior permission.                                              */
+/*                                                                         */
+/*  THE MATERIAL EMBODIED ON THIS SOFTWARE IS PROVIDED TO YOU              */
+/*  "AS-IS" AND WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR          */
+/*  OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF               */
+/*  MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.  IN NO            */
+/*  EVENT SHALL SILICON GRAPHICS, INC.  BE LIABLE TO YOU OR ANYONE         */
+/*  ELSE FOR ANY DIRECT, SPECIAL, INCIDENTAL, INDIRECT OR                  */
+/*  CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER,          */
+/*  INCLUDING WITHOUT LIMITATION, LOSS OF PROFIT, LOSS OF USE,             */
+/*  SAVINGS OR REVENUE, OR THE CLAIMS OF THIRD PARTIES, WHETHER OR         */
+/*  NOT SILICON GRAPHICS, INC.  HAS BEEN ADVISED OF THE POSSIBILITY        */
+/*  OF SUCH LOSS, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,           */
+/*  ARISING OUT OF OR IN CONNECTION WITH THE POSSESSION, USE OR            */
+/*  PERFORMANCE OF THIS SOFTWARE.                                          */
+/*                                                                         */
+/*  US Government Users Restricted Rights                                  */
+/*                                                                         */
+/*  Use, duplication, or disclosure by the Government is subject to        */
+/*  restrictions set forth in FAR 52.227.19(c)(2) or subparagraph          */
+/*  (c)(1)(ii) of the Rights in Technical Data and Computer                */
+/*  Software clause at DFARS 252.227-7013 and/or in similar or             */
+/*  successor clauses in the FAR or the DOD or NASA FAR                    */
+/*  Supplement.  Unpublished-- rights reserved under the copyright         */
+/*  laws of the United States.  Contractor/manufacturer is Silicon         */
+/*  Graphics, Inc., 2011 N.  Shoreline Blvd., Mountain View, CA            */
+/*  94039-7311.                                                            */
+/*                                                                         */
+/*  OpenGL(TM) is a trademark of Silicon Graphics, Inc.                    */
+/*                                                                         */
+/***************************************************************************/

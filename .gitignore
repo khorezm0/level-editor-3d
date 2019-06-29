@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/MainBase/.vs/MainBase/v16
+/MainBase/MainBase/Debug
+/MainBase/Debug

@@ -1,0 +1,4 @@
+﻿  EditorWindow.cpp
+  MainBase.cpp
+C:\Users\ZANGIEV\source\repos\akmaldiploma\MainBase\MainBase\EditorWindow.h(17,10): error C1083:  Не удается открыть файл включение: cpw.h: No such file or directory,
+C:\Users\ZANGIEV\source\repos\akmaldiploma\MainBase\MainBase\EditorWindow.h(17,10): error C1083:  Не удается открыть файл включение: cpw.h: No such file or directory,
