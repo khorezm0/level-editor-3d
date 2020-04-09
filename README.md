@@ -1,2 +1,2 @@
-# diploma
+# Level designer
 Level designer
